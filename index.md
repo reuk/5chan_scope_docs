@@ -194,6 +194,8 @@ The new approach led to the following demo.
 
 Feedback on this version was much more positive, and I made just a few tweaks (removing the grid at 1:06, drawing out some of the low notes, rehashing the ending) before producing the final composition.
 
+<iframe src="https://player.vimeo.com/video/126071219" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 # evaluation
 
 I'm pleased with the final composition.
