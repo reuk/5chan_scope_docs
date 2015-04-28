@@ -245,13 +245,13 @@ Now, the rapid movement motif is altered slightly, becoming a regular, predictab
 The 2D shape moves between each of the grid cells in turn, adding a side to the regular polygon shown each time.
 The rate of movement increases, and as it does so, the 2D polygons rotate slowly in 3D space, becoming regular prisms.
 
-After a brief pause, a new technique is shown at 03:18 - a 2D regular polygon is slowly drawn, but it crosses between the grid cell boundaries.
+After a brief pause, a new technique is shown at 3:20 - a 2D regular polygon is slowly drawn, but it crosses between the grid cell boundaries.
 This is achieved by using a very fast version of the regular movement motif.
 The polygon decreases in size, until it occupies a single cell once more.
 After a short reprise of the random movement motif, the shape extrudes outwards and starts rotating.
 This is a mixture of the torus and polygon motifs - the shape here is a torus with a polygonal cross-section.
 
-At 4:15, the number of sides of the cross-section increases, and the shape becomes a simple torus once more.
+At 4:17, the number of sides of the cross-section increases, and the shape becomes a simple torus once more.
 As the torus decreases in size, it briefly references the beginning of the piece, and as the visual shrinks off the screen, the sound fades to silence.
 
 # evaluation
