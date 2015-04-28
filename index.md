@@ -17,11 +17,15 @@ I’d experimented with lissajous figures in previous pieces, and wanted to see 
 
 This video shows an old lissajous pattern experiment.
 
-<iframe src="https://player.vimeo.com/video/66002892" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/66002892" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+Omitted: Lissajous pattern experiment video.
+</iframe>
 
-This is a music video I made at the end of 2nd year for Ben Potts, again featuring lissajous patterns prominently.
+This is a music video I made at the end of 2nd year for a piece by Ben Potts, again featuring lissajous patterns prominently.
 
-<iframe src="https://player.vimeo.com/video/66204331" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/66204331" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+Omitted: Music video for Ben Potts.
+</iframe>
 
 Neither of these old experiments used audio signals to generate the lissajous patterns.
 The first step of this project was to create a way of generating these patterns using audio, which led to one of the most fundamental guiding principles of the piece:
@@ -51,7 +55,9 @@ Two of the most influential projects are described here.
 The project I found most inspirational and aesthetically pleasing was Ryoji Ikeda and Carsten Nicolai's [Cyclo](www.raster-noton.net/shop/id).
 A video excerpt is shown below:
 
-<iframe src="https://player.vimeo.com/video/73860675" width="500" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/73860675" width="500" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+Omitted: Video of cyclo.id#00.
+</iframe>
 
 In this project, the left and right sample values are treated as x and y coordinates, and each coordinate pair is plotted as a single dot.
 The music is characterised by very high frequencies, often beyond the audible spectrum.
@@ -66,7 +72,9 @@ I also wanted to take the idea of 3D lissajous patterns further, and decided to 
 
 [Jerobeam Fenderson](www.jerobeamfenderson.net) creates music to be displayed on oscilloscopes, using PureData.
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/YqSvkNjWnnQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/YqSvkNjWnnQ" frameborder="0" allowfullscreen>
+Omitted: Video of Jerobeam Fenderson's Nucelar Black Noise.
+</iframe>
 
 Rather than the drawn-out drones with tiny modulations, seen in Cyclo's work, Jerobeam writes more traditionally 'musical' pieces with time-signatures, harmony, and instrument-like timbres.
 Though musically interesting, at some points the sounds seem to have been created with *only* the sound in mind, leading to indistinct or jumbled visuals.
@@ -147,14 +155,16 @@ With a toolkit of different Max objects for creating lissajous patterns, all tha
 Max was a great tool for this task, as it allowed me to rapidly prototype shapes, and then to instantly audition the sounds they produced.
 I could also add interactive parameters to the patches, so that the shapes and sounds could be 'performed'.
 
-# musical developments
+# stylistic developments
 
 At first, I wanted to write a very noise-based, rhythmic piece in the vein of Emptyset (but a little faster-paced).
 My initial idea was to have two sets of sounds: 'musical' sounds with inconsequential cross-correlations, and 'drone' sounds which generated interesting visual patterns.
 I would make some rhythmic music using the 'musical' sounds, and then intersperse this with the drone sounds to add visual interest.
 Here are some of my primary ideas:
 
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/102081791&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/102081791&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+Omitted: Soundcloud audio demo player.
+</iframe>
 
 The 'Bass Drones' clip is an early example of the kind of sound-world I wanted to explore.
 It uses long, noisy bass drones and clicky percussion, with occasional violent outbursts, and evolves very slowly.
@@ -172,11 +182,13 @@ All the material is constrained to a 12-step rhythmic grid, and for the most par
 The visual material involves cubes, generated using the Processing and Python code mentioned earlier, then loaded into a Max `sfplay~` and gated.
 
 The video below shows the corresponding visualisation of the demo.
-The audio quality of the video is poor as Youtube doesn't know how to handle loud multichannel audio, so I suggest that you listen to the audio from Soundcloud first to get a better idea of the sound-world.
+The audio quality of the video is poor as Youtube doesn't process loud multichannel audio properly, so I suggest that you listen to the audio from Soundcloud first to get a better idea of the sound-world.
 Note the state of the visualiser program - at this point, I'd removed the level meters and FFT displays, but wasn't sure whether or not to keep the grid-lines and text labels.
 I eventually decided that they didn't add anything to the video, and removed them.
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/AkrWdc5HM2w" frameborder="0" allowfullscreen></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/AkrWdc5HM2w" frameborder="0" allowfullscreen>
+Omitted: Video of rhythmic demo.
+</iframe>
 
 Feedback on this demo was mixed.
 The rhythmic elements were thought to be arbitrary, and the music was overly reliant on the 12-step grid.
@@ -190,11 +202,57 @@ Removing all the irrelevant rhythmic and cube-based material allowed me to focus
 
 The new approach led to the following demo.
 
-<iframe src="https://player.vimeo.com/video/123933759" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/123933759" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+Omitted: Video of almost-complete piece.
+</iframe>
 
-Feedback on this version was much more positive, and I made just a few tweaks (removing the grid at 1:06, drawing out some of the low notes, rehashing the ending) before producing the final composition.
+Feedback on this version was much more positive, and I made just a few tweaks (removing the rhythmic grid at 1:06, drawing out some of the low notes, rehashing the ending) before producing the final composition.
 
-<iframe src="https://player.vimeo.com/video/126071219" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/126071219" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+Omitted: Video of final piece.
+</iframe>
+
+# aesthetic decisions
+
+The music is composed quite freely, and there is no overarching algorithm or pattern that dictates the ordering or timing of each section.
+Instead, the piece is put together quite intuitively, and I have tried to *imply* progressions throughout the piece, rather than setting up specific rules or orderings to govern the composition.
+This was intentionally designed to contrast with the concrete, prescriptive approach to the visual material.
+Whereas the visualiser uses a single set of rules to generate graphics, the music is designed to produce a wide range of visual effects in a more fluid, human way, challenging the rigidity of the visual process.
+This, I think, is reflective of my wider creative practice: I try to set up constraints, and then push my work to the very limits of those constraints.
+
+There are three main visual motifs in `5chan_scope`:
+
+* The '3D torus' motif, based on a coiled doughnut-like shape
+* The 'regular polygons' motif, based on regular polygons with between 3 and 100 sides
+* The 'random movement' motif, in which a shape is rapidly moved between grid cells (corresponding to channel-pairs)
+
+I chose these particular motifs because they each have a distinctive visual and sonic character that can be differentiated easily.
+Additionally, the simplicity of each individual motif allows for interesting but understandable interactions when the motifs are combined.
+The small number of motifs used is consistent with the minimal aesthetic suggested by the sparse, monochromatic visuals and the drone-like audio.
+A wider selection of motifs may have led the piece to become confused or muddled.
+
+The piece begins with a series of variations on the torus motif.
+This takes place on the front left and right channels, occupying a single grid-cell on screen.
+The first section also serves to establish a clear link between sound and visuals - as more 'coils' are added to the shape rotating on screen, different harmonics can be heard in the sound.
+
+At 1:09, the random movement motif is introduced for the first time, as a treatment on top of the torus motif.
+This motif continues, as the minor radius of the torus decreases, and the shape morphs into a simple 2D circle.
+In 2D, the random movements are emphasised, and become the new focus.
+The fundamental frequency rises then plateaus, and at 2:10 the harmonics rapidly increase in volume as the circle loses some of its edges to become a triangle.
+This is the first statement of the regular polygons motif.
+
+Now, the rapid movement motif is altered slightly, becoming a regular, predictable movement.
+The 2D shape moves between each of the grid cells in turn, adding a side to the regular polygon shown each time.
+The rate of movement increases, and as it does so, the 2D polygons rotate slowly in 3D space, becoming regular prisms.
+
+After a brief pause, a new technique is shown at 03:18 - a 2D regular polygon is slowly drawn, but it crosses between the grid cell boundaries.
+This is achieved by using a very fast version of the regular movement motif.
+The polygon decreases in size, until it occupies a single cell once more.
+After a short reprise of the random movement motif, the shape extrudes outwards and starts rotating.
+This is a mixture of the torus and polygon motifs - the shape here is a torus with a polygonal cross-section.
+
+At 4:15, the number of sides of the cross-section increases, and the shape becomes a simple torus once more.
+As the torus decreases in size, it briefly references the beginning of the piece, and as the visual shrinks off the screen, the sound fades to silence.
 
 # evaluation
 
