@@ -22,8 +22,7 @@ Omitted: Lissajous pattern experiment video.
 </iframe>
 
 This is a music video I made at the end of 2nd year for a piece by Ben Potts, again featuring lissajous patterns prominently.
-
-<iframe src="https://player.vimeo.com/video/66204331" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+<iframe src="https://player.vimeo.com/video/127338610" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
 Omitted: Music video for Ben Potts.
 </iframe>
 
